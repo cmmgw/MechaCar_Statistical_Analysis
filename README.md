@@ -15,7 +15,6 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 [MechaCar_mpg.csv](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv), 
 [Suspension_Coil.csv](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/R_Analysis/Suspension_Coil.csv)
 * **Languages:** R
-* **Applications:** Tableau
 * **Tools:** MS Excel, RStudio, tidyverse, dpylr, ggplot2
 
 ## Linear Regression to Predict MPG
@@ -27,10 +26,14 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 ## Summary Statistics on Suspension Coils
 In the MechaCar Suspension_Coil.csv dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
 
+### PSI metrics for all Manufacturing Lots
 A summary statistics table was created to show the suspension coil’s PSI continuous variable across all manufacturing lots. 
+
 ![Deliverable_2_Total_Summary](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_2_Total_Summary.JPG)
 
+### PSI Metrics for Each Lot
 A summary statistics table was created to show the following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
 ![Deliverable_2_Lot_Summary](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_2_Lot_Summary.JPG)
 
 
