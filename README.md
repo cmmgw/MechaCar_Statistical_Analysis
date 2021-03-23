@@ -48,8 +48,17 @@ A summary statistics table was created to show the following PSI metrics for eac
 
 
 ## T-Tests on Suspension Coils
+T-tests were performed to determine if the PSI across all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. Confidence intervals or p-values can be utilized to determine whether results are statistically significant. Given that the confidence interval is 95%, the significance level is 0.05%.  A confidence interval outlines the upper and lower limit for the mean. 
 
 ![Deliverable_3_T_Tests](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_3_T_Tests.JPG)
+
+**Results:**
+* Across all manufacturing lots, the PSI is not statistically different from the population mean of 1,500 pounds per square inch, as the p value of 0.06028 is higher than 0.05, which indicates strong evidence for maintaining the null hypothesis.
+* The PSI for manufacturing Lots 1 and 2 are not statistically different, as the respective p-values of 1 and 0.06072 are higher than 0.05. The PSI for Lot 3 is statistically different, as the p-value of 0.04168 is below 0.05, which indicates strong evidence for rejecting the null hypothesis.
+
+
+
+
 
 
 ## Study Design: MechaCar vs Competition
