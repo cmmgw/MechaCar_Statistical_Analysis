@@ -1,7 +1,6 @@
 # MechaCar Statistical Analysis
 
 ## Overview
-
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. Utilizing the R programming language, production data will be analyzed to provide insights to AutoRUs’ manufacturing team. 
 
 **Analysis Entails:**
@@ -10,12 +9,14 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 * T-tests ran to determine if the manufacturing lots are statistically different from the mean population
 * Statistical study designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
+
 ### Resources Utilized to Complete Analysis
 * **Data Sources:** 
 [MechaCar_mpg.csv](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv), 
 [Suspension_Coil.csv](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/R_Analysis/Suspension_Coil.csv)
 * **Languages:** R
 * **Tools:** MS Excel, RStudio, tidyverse, dpylr, ggplot2
+
 
 ## Linear Regression to Predict MPG
 The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, ground clearance and AWD, were collected for each vehicle and are all considered the independent variables in the dataset. The dependent variable is mpg. Utilizing R, a linear model was designed that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file.
@@ -29,7 +30,7 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 
 
 ## Summary Statistics on Suspension Coils
-In the MechaCar Suspension_Coil.csv dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
+In the MechaCar Suspension_Coil.csv dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
 #### PSI Metrics for all Manufacturing Lots
 A summary statistics table was created to show the suspension coil’s PSI continuous variable across all manufacturing lots. 
@@ -40,6 +41,10 @@ A summary statistics table was created to show the suspension coil’s PSI conti
 A summary statistics table was created to show the following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 ![Deliverable_2_Lot_Summary](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_2_Lot_Summary.JPG)
+
+** Results:**
+* The variance of the PSI for all manufacturing lots is 62.29356, which does not exceed the 100 pounds per square inch limit.
+* The variance for Lot 1 and Lot 2 meets the design specifications as their respective variance, falls within range. However, Lot 3 does not meet the design specifications as the variance is 170.2861224 and therefore exceeds the 100 pounds per square inch limit. As such, suspension coils from Lot 1 and Lot 2 should be used. 
 
 
 ## T-Tests on Suspension Coils
