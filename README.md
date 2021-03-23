@@ -42,7 +42,7 @@ A summary statistics table was created to show the following PSI metrics for eac
 
 ![Deliverable_2_Lot_Summary](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_2_Lot_Summary.JPG)
 
-** Results:**
+**Results:**
 * The variance of the PSI for all manufacturing lots is 62.29356, which does not exceed the 100 pounds per square inch limit.
 * The variance for Lot 1 and Lot 2 meets the design specifications as their respective variance, falls within range. However, Lot 3 does not meet the design specifications as the variance is 170.2861224 and therefore exceeds the 100 pounds per square inch limit. As such, suspension coils from Lot 1 and Lot 2 should be used. 
 
