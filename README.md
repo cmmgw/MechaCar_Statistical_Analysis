@@ -59,14 +59,20 @@ T-tests were performed to determine if the PSI across all manufacturing lots and
 
 
 ## Study Design: MechaCar vs Competition
-A statistical study can be designed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. 
+For further analysis, a statistical study can be designed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. 
 
 #### Metrics
-Vehicle type and fuel efficiency
+* Fuel efficiency: city mpg and highway mpg
+* Vehicle type: convertible, coupe, crossover, diesel engine, hybrid, luxury, minivan, van, pickup truck, sedan, sports car, SUV, wagon
 
-#### Null Hypothesis
+#### Hypothesis
+* Null Hypothesis: MechaCars’ vehicles perform equally as well as those from other manufacturers, when comparing fuel efficiency across vehicle type
+* Alternative Hypothesis: MechaCars’ vehicles does not perform equally as well as those from other manufacturers, when comparing fuel efficiency across vehicle type
 
 #### Statistical Test
+* ANOVA will validate the hypothesis and determine whether the differences are statistically significant
+* Boxplot will visualize the variability of the samples and the central tendency
 
 #### Data Needed
+The sample size per vehicle type must be greater than 50, so the overall sample size for all vehicles across the dataset must be greater than 650. Vehicle fuel economy calculations for city mpg and highway mpg are needed when determining fuel efficiency. 
 
