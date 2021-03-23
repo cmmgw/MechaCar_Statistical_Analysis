@@ -10,6 +10,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 * Statistical study designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 
+
 ### Resources Utilized to Complete Analysis
 * **Data Sources:** 
 [MechaCar_mpg.csv](https://github.com/cmmgw/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv), 
@@ -27,6 +28,7 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 * The variables that provide a non-random amount of variance to the mpg values in the dataset are vehicle length and ground clearance.
 * The slope of the linear model is not considered to be zero, as some of the independent variables were statistically significant. The three asterisks denote a highly significant p-value for vehicle length and ground clearance, and both have a Pr(>t) of about 0. 
 * The linear model predicts mpg of MechaCar prototypes effectively 71% of the time, as the R-squared value is 0.7149. 
+
 
 
 ## Summary Statistics on Suspension Coils
@@ -47,6 +49,7 @@ A summary statistics table was created to show the following PSI metrics for eac
 * The variance for Lot 1 and Lot 2 meets the design specifications as their respective variance, falls within range. However, Lot 3 does not meet the design specifications as the variance is 170.2861224 and therefore exceeds the 100 pounds per square inch limit. As such, suspension coils from Lot 1 and Lot 2 should be used. 
 
 
+
 ## T-Tests on Suspension Coils
 T-tests were performed to determine if the PSI across all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. Confidence intervals or p-values can be utilized to determine whether results are statistically significant. Given that the confidence interval is 95%, the significance level is 0.05%.  A confidence interval outlines the upper and lower limit for the mean. 
 
@@ -55,9 +58,6 @@ T-tests were performed to determine if the PSI across all manufacturing lots and
 **Results:**
 * Across all manufacturing lots, the PSI is not statistically different from the population mean of 1,500 pounds per square inch, as the p value of 0.06028 is higher than 0.05, which indicates strong evidence for maintaining the null hypothesis.
 * The PSI for manufacturing Lots 1 and 2 are not statistically different, as the respective p-values of 1 and 0.06072 are higher than 0.05. The PSI for Lot 3 is statistically different, as the p-value of 0.04168 is below 0.05, which indicates strong evidence for rejecting the null hypothesis.
-
-
-
 
 
 
