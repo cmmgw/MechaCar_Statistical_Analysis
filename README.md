@@ -59,9 +59,10 @@ T-tests were performed to determine if the PSI across all manufacturing lots and
 
 
 ## Study Design: MechaCar vs Competition
-A statistical study was designed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+A statistical study can be designed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. 
 
 #### Metrics
+Vehicle type and fuel efficiency
 
 #### Null Hypothesis
 
